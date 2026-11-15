@@ -1,0 +1,23 @@
+[worldserver]
+
+###################################################################################################
+# mod-heartstone-no-cd
+#
+#    HeartstoneNoCd.Enable
+#        Activa o desactiva el modulo.
+#        Default: 1
+#
+#    HeartstoneNoCd.Cooldown
+#        Enfriamiento de la Piedra de Hogar, en SEGUNDOS.
+#        0 = se devuelve el cooldown completo (sin enfriamiento).
+#        Default: 0      Ejemplos: 30, 300, 1800 (original)
+#
+#    HeartstoneNoCd.Bots.Enable
+#        Solo con mod-playerbots. 1 = los bots tambien reciben el efecto,
+#        0 = los bots conservan el enfriamiento original.
+#        Default: 0
+###################################################################################################
+
+HeartstoneNoCd.Enable      = 1
+HeartstoneNoCd.Cooldown    = 0
+HeartstoneNoCd.Bots.Enable = 0
